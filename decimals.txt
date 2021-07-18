@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+	char c;
+	int isdigit;
+	
+	printf("Enter a character \n");
+	scanf("%C", &c);
+	
+	isdigit = ((c >= '0') && (c <= '9'))?
+	
+   if(isdigit == 1)
+	   printf("%c is decimal digit character \n", c);
+	else
+	    printf("%c is not decimal digit character\n", c);
+	    
+    return(0);
+}

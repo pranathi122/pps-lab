@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+	int num, n, bitstatus;
+	
+	printf("Enter any number: ");
+	scanf("%d", num);
+	
+	printf("Enter nth bit to check (0-31): ");
+	sacnf("%d", &n);
+	
+	bitstatus = (num >> n) & 1;
+	
+	printf("The %d bit set to %d", n, bitstatus);
+	
+	return(0);
+}

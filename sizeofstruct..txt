@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+	struct A{
+		int x;
+		
+		double z;
+		
+		short int y;
+		
+	};
+	
+	printf("Size of struct: %ld", sizeof(struct A));
+	
+	return(0);
+		
+}

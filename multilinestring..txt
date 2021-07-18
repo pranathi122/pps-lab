@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+	char inputstring[128];
+	
+	printf("Enter a multi line string( press ';' to end input)\n ");
+	scanf("%[^;]s",inputstring);
+	
+	printf("Input string = %s",inputstring);
+	
+	return(0);
+}

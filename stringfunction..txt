@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+	char nickname[20];
+	
+	printf("Enter your nickname: ");
+	scanf("%s", nickname);
+	
+	printf("%s", nickname);
+	
+	return(0);
+}

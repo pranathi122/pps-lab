@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	int num, flippednumber;
+	
+	printf("Enter any number: ");
+	scanf("%d", &num);
+	
+    flippednumber = ~num;
+     
+    printf("Oringnal number = %d (in decimal)\n", num);
+    printf("Number after bits are flipped = %d (in decimal)",flippednumber);
+    
+    return (0);
+}
