@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+
+int a, b, c, max, min;
+
+printf(“Enter a b c:”); scanf(“%d%d%d”, &a, &b, &c);
+
+max = a; min = b;
+
+if ( a < b) { max = b; min =c; }
+
+if ( max < c) max = c;
+
+if ( min > c) min = c;
+
+printf(“Max = %d Min = %d\n”, max, min);
+
+return 0;
+
+}
